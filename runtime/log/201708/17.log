@@ -1,0 +1,975 @@
+[ 2017-08-17T22:16:32+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index.html
+[ log ] blog.demo.lzcms.top/install/index.html [运行时间：0.011300s][吞吐率：88.50req/s] [内存消耗：383.96kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index_html' => '',
+)
+[ info ] [ RUN ] app\install\controller\Index->index[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/install/view/index/index.tpl.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:16:39+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index/setup1.html
+[ log ] blog.demo.lzcms.top/install/index/setup1.html [运行时间：0.008003s][吞吐率：124.95req/s] [内存消耗：391.80kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'setup1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index.html',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/setup1_html' => '',
+)
+[ info ] [ RUN ] app\install\controller\Index->setup1[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/install/view/index/setup1.tpl.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:16:40+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index/setup2.html
+[ log ] blog.demo.lzcms.top/install/index/setup2.html [运行时间：0.009271s][吞吐率：107.86req/s] [内存消耗：393.86kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'setup2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index/setup1.html',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/setup2_html' => '',
+)
+[ info ] [ RUN ] app\install\controller\Index->setup2[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/install/view/index/setup2.tpl.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:16:40+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index/setup2.html
+[ log ] blog.demo.lzcms.top/install/index/setup2.html [运行时间：0.006594s][吞吐率：151.65req/s] [内存消耗：338.92kb] [文件加载：43]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'setup2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index/setup2.html',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/setup2_html' => '',
+)
+[ info ] [ RUN ] app\install\controller\Index->setup2[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/install/view/index/setup2.tpl.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:16:51+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index/ajax_check_mysql.html?db_address=127.0.0.1&db_port=3306&db_user=blogdemo&db_pwd=blogdemo123&db_name=blogdemo
+[ log ] blog.demo.lzcms.top/install/index/ajax_check_mysql.html?db_address=127.0.0.1&db_port=3306&db_user=blogdemo&db_pwd=blogdemo123&db_name=blogdemo [运行时间：0.010620s][吞吐率：94.16req/s] [内存消耗：346.58kb] [文件加载：41]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'ajax_check_mysql',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index/setup2.html',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/ajax_check_mysql_html' => '',
+  'db_address' => '127.0.0.1',
+  'db_port' => '3306',
+  'db_user' => 'blogdemo',
+  'db_pwd' => 'blogdemo123',
+  'db_name' => 'blogdemo',
+)
+[ info ] [ RUN ] app\install\controller\Index->ajax_check_mysql[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:36]
+
+---------------------------------------------------------------
+[ 2017-08-17T22:17:42+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index/setup3.html?db_address=127.0.0.1&db_port=3306&db_name=blogdemo&db_user=blogdemo&db_pwd=blogdemo123&db_pre=lz_&site_name=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_keywords=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_description=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&admin_user=demo&admin_pwd=demo123
+[ log ] blog.demo.lzcms.top/install/index/setup3.html?db_address=127.0.0.1&db_port=3306&db_name=blogdemo&db_user=blogdemo&db_pwd=blogdemo123&db_pre=lz_&site_name=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_keywords=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_description=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&admin_user=demo&admin_pwd=demo123 [运行时间：0.137078s][吞吐率：7.30req/s] [内存消耗：419.26kb] [文件加载：49]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'setup3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index/setup2.html',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/setup3_html' => '',
+  'db_address' => '127.0.0.1',
+  'db_port' => '3306',
+  'db_name' => 'blogdemo',
+  'db_user' => 'blogdemo',
+  'db_pwd' => 'blogdemo123',
+  'db_pre' => 'lz_',
+  'site_name' => 'LzCMS-博客版演示站点',
+  'site_keywords' => 'LzCMS-博客版演示站点',
+  'site_description' => 'LzCMS-博客版演示站点',
+  'admin_user' => 'demo',
+  'admin_pwd' => 'demo123',
+)
+[ info ] [ RUN ] app\install\controller\Index->setup3[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/install/view/index/setup3.tpl.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:221]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [2]fopen(/www/web/blog_demo_lzcms_top/public_html/application/database.php): failed to open stream: Permission denied[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:371]
+
+---------------------------------------------------------------
+[ 2017-08-17T22:18:03+08:00 ] 127.0.0.1 122.114.8.76 GET /install/index/clear_cache.html
+[ log ] blog.demo.lzcms.top/install/index/clear_cache.html [运行时间：0.043816s][吞吐率：22.82req/s] [内存消耗：555.61kb] [文件加载：51]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'clear_cache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'x-real-ip' => '122.114.8.76',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/clear_cache_html' => '',
+)
+[ info ] [ RUN ] app\install\controller\Index->clear_cache[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[/www/web/blog_demo_lzcms_top/public_html/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-08-17T22:18:03+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index/setup3.html?db_address=127.0.0.1&db_port=3306&db_name=blogdemo&db_user=blogdemo&db_pwd=blogdemo123&db_pre=lz_&site_name=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_keywords=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_description=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&admin_user=demo&admin_pwd=demo123
+[ log ] blog.demo.lzcms.top/install/index/setup3.html?db_address=127.0.0.1&db_port=3306&db_name=blogdemo&db_user=blogdemo&db_pwd=blogdemo123&db_pre=lz_&site_name=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_keywords=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_description=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&admin_user=demo&admin_pwd=demo123 [运行时间：0.175857s][吞吐率：5.69req/s] [内存消耗：373.78kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'setup3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index/setup2.html',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/setup3_html' => '',
+  'db_address' => '127.0.0.1',
+  'db_port' => '3306',
+  'db_name' => 'blogdemo',
+  'db_user' => 'blogdemo',
+  'db_pwd' => 'blogdemo123',
+  'db_pre' => 'lz_',
+  'site_name' => 'LzCMS-博客版演示站点',
+  'site_keywords' => 'LzCMS-博客版演示站点',
+  'site_description' => 'LzCMS-博客版演示站点',
+  'admin_user' => 'demo',
+  'admin_pwd' => 'demo123',
+)
+[ info ] [ RUN ] app\install\controller\Index->setup3[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/install/view/index/setup3.tpl.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:221]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [2]file_get_contents(http://blog.demo.lzcms.top:80/install/index/clear_cache.html): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:345]
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:02+08:00 ] 127.0.0.1 122.114.8.76 GET /install/index/clear_cache.html
+[ log ] blog.demo.lzcms.top/install/index/clear_cache.html [运行时间：0.035546s][吞吐率：28.13req/s] [内存消耗：825.02kb] [文件加载：54]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'clear_cache',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'x-real-ip' => '122.114.8.76',
+  'connection' => 'close',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/clear_cache_html' => '',
+)
+[ info ] [ RUN ] app\install\controller\Index->clear_cache[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:02+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index/setup3.html?db_address=127.0.0.1&db_port=3306&db_name=blogdemo&db_user=blogdemo&db_pwd=blogdemo123&db_pre=lz_&site_name=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_keywords=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_description=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&admin_user=demo&admin_pwd=demo123
+[ log ] blog.demo.lzcms.top/install/index/setup3.html?db_address=127.0.0.1&db_port=3306&db_name=blogdemo&db_user=blogdemo&db_pwd=blogdemo123&db_pre=lz_&site_name=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_keywords=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_description=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&admin_user=demo&admin_pwd=demo123 [运行时间：0.141909s][吞吐率：7.05req/s] [内存消耗：507.98kb] [文件加载：47]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'setup3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index/setup2.html',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/setup3_html' => '',
+  'db_address' => '127.0.0.1',
+  'db_port' => '3306',
+  'db_name' => 'blogdemo',
+  'db_user' => 'blogdemo',
+  'db_pwd' => 'blogdemo123',
+  'db_pre' => 'lz_',
+  'site_name' => 'LzCMS-博客版演示站点',
+  'site_keywords' => 'LzCMS-博客版演示站点',
+  'site_description' => 'LzCMS-博客版演示站点',
+  'admin_user' => 'demo',
+  'admin_pwd' => 'demo123',
+)
+[ info ] [ RUN ] app\install\controller\Index->setup3[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/install/view/index/setup3.tpl.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:221]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义变量: is_test[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:159]
+[ error ] [8]未定义变量: per[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+[ error ] [8]未定义数组下标: 5[/www/web/blog_demo_lzcms_top/public_html/application/install/common.php:169]
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:04+08:00 ] 127.0.0.1 111.7.170.71 GET /install/index/setup4.html?admin_user=demo
+[ log ] blog.demo.lzcms.top/install/index/setup4.html?admin_user=demo [运行时间：0.010734s][吞吐率：93.16req/s] [内存消耗：384.05kb] [文件加载：45]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'install',
+    1 => 'index',
+    2 => 'setup4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index/setup3.html?db_address=127.0.0.1&db_port=3306&db_name=blogdemo&db_user=blogdemo&db_pwd=blogdemo123&db_pre=lz_&site_name=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_keywords=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&site_description=LzCMS-%E5%8D%9A%E5%AE%A2%E7%89%88%E6%BC%94%E7%A4%BA%E7%AB%99%E7%82%B9&admin_user=demo&admin_pwd=demo123',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/install/index/setup4_html' => '',
+  'admin_user' => 'demo',
+)
+[ info ] [ RUN ] app\install\controller\Index->setup4[ /www/web/blog_demo_lzcms_top/public_html/application/install/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/install/view/index/setup4.tpl.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:05+08:00 ] 127.0.0.1 111.7.170.71 GET /admin/login/login.html
+[ log ] blog.demo.lzcms.top/admin/login/login.html [运行时间：0.011755s][吞吐率：85.07req/s] [内存消耗：578.00kb] [文件加载：53]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/install/index/setup4.html?admin_user=demo',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/web/blog_demo_lzcms_top/public_html/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/admin/view/public/login.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:05+08:00 ] 127.0.0.1 111.7.170.71 GET /captcha.html
+[ log ] blog.demo.lzcms.top/captcha.html [运行时间：0.015807s][吞吐率：63.26req/s] [内存消耗：259.96kb] [文件加载：32]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/login/login.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/captcha_html' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/web/blog_demo_lzcms_top/public_html/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:13+08:00 ] 127.0.0.1 111.7.170.71 POST /admin/login/login.html
+[ log ] blog.demo.lzcms.top/admin/login/login.html [运行时间：0.008790s][吞吐率：113.77req/s] [内存消耗：529.56kb] [文件加载：50]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/login/login.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'content-length' => '42',
+  'accept' => '*/*',
+  'origin' => 'http://blog.demo.lzcms.top',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+  'username' => 'demo',
+  'password' => 'demo123',
+  'captcha' => 'r6a',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/web/blog_demo_lzcms_top/public_html/application/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:13+08:00 ] 127.0.0.1 111.7.170.71 GET /captcha?id=0.7217858020696597
+[ log ] blog.demo.lzcms.top/captcha?id=0.7217858020696597 [运行时间：0.007186s][吞吐率：139.16req/s] [内存消耗：255.74kb] [文件加载：32]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/login/login.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/captcha' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /www/web/blog_demo_lzcms_top/public_html/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:16+08:00 ] 127.0.0.1 111.7.170.71 POST /admin/login/login.html
+[ log ] blog.demo.lzcms.top/admin/login/login.html [运行时间：0.012539s][吞吐率：79.75req/s] [内存消耗：590.76kb] [文件加载：52]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/login/login.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'content-length' => '43',
+  'accept' => '*/*',
+  'origin' => 'http://blog.demo.lzcms.top',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/login_html' => '',
+  'username' => 'demo',
+  'password' => 'demo123',
+  'captcha' => 'veku',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Login->login[ /www/web/blog_demo_lzcms_top/public_html/application/admin/controller/Login.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:17+08:00 ] 127.0.0.1 111.7.170.71 GET /admin/index/index.html
+[ log ] blog.demo.lzcms.top/admin/index/index.html [运行时间：0.019190s][吞吐率：52.11req/s] [内存消耗：593.76kb] [文件加载：53]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/login/login.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/web/blog_demo_lzcms_top/public_html/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/admin/view/index/index.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:17+08:00 ] 127.0.0.1 111.7.170.71 GET /admin/index/home.html
+[ log ] blog.demo.lzcms.top/admin/index/home.html [运行时间：0.019541s][吞吐率：51.17req/s] [内存消耗：596.62kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/index/index.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/home_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->home[ /www/web/blog_demo_lzcms_top/public_html/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/admin/view/index/home.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[/www/web/blog_demo_lzcms_top/public_html/runtime/temp/d303c27bdbecce02b81bd175002fae35.php:24]
+[ error ] [2]mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO)[/www/web/blog_demo_lzcms_top/public_html/runtime/temp/d303c27bdbecce02b81bd175002fae35.php:24]
+[ error ] [2]mysql_get_server_info(): A link to the server could not be established[/www/web/blog_demo_lzcms_top/public_html/runtime/temp/d303c27bdbecce02b81bd175002fae35.php:24]
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:19+08:00 ] 127.0.0.1 111.7.170.71 GET /admin/cache/update.html
+[ log ] blog.demo.lzcms.top/admin/cache/update.html [运行时间：0.030009s][吞吐率：33.32req/s] [内存消耗：873.92kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cache',
+    2 => 'update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/index/index.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/cache/update_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Cache->update[ /www/web/blog_demo_lzcms_top/public_html/application/admin/controller/Cache.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:20+08:00 ] 127.0.0.1 111.7.170.71 GET /admin/index/index.html
+[ log ] blog.demo.lzcms.top/admin/index/index.html [运行时间：0.016180s][吞吐率：61.80req/s] [内存消耗：592.73kb] [文件加载：53]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/index/index.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->index[ /www/web/blog_demo_lzcms_top/public_html/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/admin/view/index/index.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-08-17T22:19:20+08:00 ] 127.0.0.1 111.7.170.71 GET /admin/index/home.html
+[ log ] blog.demo.lzcms.top/admin/index/home.html [运行时间：0.022728s][吞吐率：44.00req/s] [内存消耗：596.95kb] [文件加载：55]
+[ info ] [ LANG ] /www/web/blog_demo_lzcms_top/public_html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'blog.demo.lzcms.top',
+  'referer' => 'http://blog.demo.lzcms.top/admin/index/index.html',
+  'cookie' => 'PHPSESSID=k0g556cm2hbgo717u72hke26n3',
+  'x-real-ip' => '111.7.170.71',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/6.1.3397.16 Safari/537.36',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/home_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\admin\controller\Index->home[ /www/web/blog_demo_lzcms_top/public_html/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /www/web/blog_demo_lzcms_top/public_html/application/admin/view/index/home.tpl.php [ array (
+  0 => 'settings',
+  1 => 'admin_user',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead[/www/web/blog_demo_lzcms_top/public_html/runtime/temp/d303c27bdbecce02b81bd175002fae35.php:24]
+[ error ] [2]mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO)[/www/web/blog_demo_lzcms_top/public_html/runtime/temp/d303c27bdbecce02b81bd175002fae35.php:24]
+[ error ] [2]mysql_get_server_info(): A link to the server could not be established[/www/web/blog_demo_lzcms_top/public_html/runtime/temp/d303c27bdbecce02b81bd175002fae35.php:24]
+
+---------------------------------------------------------------
